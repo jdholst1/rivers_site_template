@@ -1,0 +1,22 @@
+
+body{
+    margin:0;
+}
+h1 {
+    color:rgb(37, 37, 131);
+    }
+
+.fancyHeader{
+    background-color:rgb(195, 210, 238);
+    font-size:150px;
+    margin-top: 25px;
+    text-align: center;
+
+
+}
+
+.fancyDiv{
+    background-color:rgb(170, 192, 231);
+    padding: 10px, 20px;
+    height:500px
+}
