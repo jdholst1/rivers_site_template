@@ -14,9 +14,28 @@ h1 {
 
 
 }
-
+.fancyParagraph{
+    background-color: aqua;
+    font-size:50px;
+    text-align: center;
+}
+.semiFancy{
+    background-color: rgb(112, 224, 246);
+    font: size 12px;
+    text-align: center;
+}
+.notFancy{
+    background-color: aqua;
+    font-size: 10px;
+    text-align: center;
+}
 .fancyDiv{
     background-color:rgb(170, 192, 231);
     padding: 10px, 20px;
     height:500px
+}
+#theOnlyOne{
+    background-color: black;
+    color: white;
+    font-size: 32px;
 }
