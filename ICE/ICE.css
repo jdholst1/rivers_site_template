@@ -1,0 +1,61 @@
+/* Classes */
+.div_class{
+    margin-left:30%;
+    margin-right:30%;
+}
+.top_paragraph{
+    color:white;
+    text-align:center;
+    margin-left:10%;
+    margin-right:10%;
+
+}
+.orderList {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:10%;
+    margin-right:10%;
+    
+}
+
+.main_header{
+    color:white;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main_header:hover {
+    color:black;
+}
+
+.semi-header{
+    color:white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.Footer
+{ text-align: center; 
+    color: black ;
+    margin-right: 40% ;
+    margin-left: 40% ;
+}
+.quote_paragraph
+{
+    color: white;
+    font-size: 200% ;
+    text-align: center;
+    margin-right: 25% ;
+    margin-left: 25% ;  
+     
+}
+/* id */
+#Nelson { margin-right: 30%;
+    margin-left: 30% ;
+}
+/* Elements */
+body {
+    background-color:#fca6c9;
+}

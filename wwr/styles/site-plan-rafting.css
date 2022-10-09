@@ -111,6 +111,7 @@ nav  {
 nav a {
   padding:1em;
   min-width: 120px;
+  text-align: center;
   text-decoration: none;
   padding: 10px;
 }
