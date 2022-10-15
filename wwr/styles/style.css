@@ -1,7 +1,5 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Roboto+Slab&display=swap');
 /*#657153, #928477, #b7b6c2, #d1d5de*/
-
-
 
 #center{
 max-width: 1600px;
@@ -26,29 +24,27 @@ text-align: center;
     height:725px;
 }
 body{
-    background-color: #657153;
+    background-color: #444b39;
 }
 header{
     background-color: #928477;
     
 }
 nav a{
-    background-color: #928477;
-    color:#d1d5de;
+    background-color: #b7b6c2;
+    color:#657153;
     text-decoration: none;
 }
 nav a:hover{
-    background-color: #b7b6c2;
+    background-color: #d1d5de;
     color:#657153;
 }
 .book{
-    background-color: #928477;
     color:#b7b6c2;
     text-decoration: none;
 }
 .join{
-    background-color: #928477;
-    color:#d1d5de;
+    color:#657153;
     text-decoration: none;
 }
 .book:hover{
@@ -62,13 +58,13 @@ nav a:hover{
     background-color: #928477;
 }
 .msg{
-    background-color: #d1d5de;
+    background-color: #b7b6c2;
 }
 .msg h2{
-    color: black;
+    color: #3c4332;
 }
 .msg p{
-    color: black;
+    color: #3c4332;
 }
 footer{
     background-color: #928477;
