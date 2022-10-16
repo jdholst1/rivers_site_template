@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Lato:ital@1&family=Roboto+Slab&display=swap');
 /*#657153, #928477, #b7b6c2, #d1d5de*/
 
 #center{
@@ -25,15 +25,24 @@ text-align: center;
 }
 body{
     background-color: #444b39;
+    font-family:'Roboto Slab', 'Inter', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    margin:0;
 }
 header{
     background-color: #928477;
+    font-family:'Roboto Slab', 'Inter', sans-serif;
     
 }
 nav a{
     background-color: #b7b6c2;
     color:#657153;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover{
     background-color: #d1d5de;
@@ -42,10 +51,18 @@ nav a:hover{
 .book{
     color:#b7b6c2;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .join{
     color:#657153;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover{
     background-color: #b7b6c2;
@@ -59,16 +76,23 @@ nav a:hover{
 }
 .msg{
     background-color: #b7b6c2;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2{
     color: #3c4332;
 }
 .msg p{
     color: #3c4332;
+    font-size: 0.8em;
+    padding-bottom: 15px;
 }
 footer{
     background-color: #928477;
     color: #d1d5de;
+    padding: 25px 50px;
+    padding-top: 15px;
+    margin-top: 200 px;
 }
 footer a{
     background-color: #928477;
@@ -83,13 +107,34 @@ footer a:hover{
 }
 .home-title {
     color:#928477
+    font-size 2em;
+    margin-top: 10px;
 }
 .icon{
     width:80px;
+    padding-top: 10px;
 }
 .logo{
     width:80px;
 }
 #hero-img{
-    width:100%;
+    width: 100%;
+}
+#logo_link{
+    padding-top: 5px;
+}
+.social_img{
+    padding-top: 15px;
+}
+.rivers-card{
+    margin: 200px 0;
+}
+.camping-card{
+    margin: 200px 0;
+}
+.rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border:10px solid;
 }
