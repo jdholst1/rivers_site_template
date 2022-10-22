@@ -66,31 +66,31 @@
 .content3 {
   /* This is the parent of the activity 3 boxes. */
   display: grid;
-  grid-template-columns: 1fr 30px 1fr;
+  grid-template-columns: 50% 50px 50%;
   grid-column-gap: 10px;
 }
 .red3 {
   width: 100%; 
-  height: 50px; 
+  height: 100px; 
   background-color: red;
   grid-column: 1/4; 
 
 } 
 .green3 {
-  width: 230px; 
-  height: 100px; 
+  width: 100%; 
+  height: 150px; 
   background-color: green;
   grid-column: 1/2;
 } 
 .yellow3 {
-  width: 200px; 
-  height: 100px; 
+  width: 100%; 
+  height: 150px; 
   background-color: gold;
   grid-column: 3/4; 
 } 
 .blue3 {
   width: 100%;
-  height: 50px; 
+  height: 100px; 
   background-color: blue; 
   grid-column: 1/4;
 } 
