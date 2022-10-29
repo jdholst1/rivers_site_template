@@ -114,6 +114,7 @@ nav a:hover{
 }
 .card-img {
     border: 10px solid;
+    border-color: #272825;
     max-width: 300px;
     transition: transform 0.5s;
     box-shadow: 5px 5px 10px #444b39;
