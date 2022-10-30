@@ -1,0 +1,21 @@
+
+
+pitch: Speedruns DB
+
+purpose: catalog of games, their top 50 speedruns, runners, and routes
+
+
+rough draft:
+
+I love to speedrun games; but more particularly, I enjoy learning the routes and 
+the glitches that make them possible. I want to design a site where
+the fastest times for my favorite games can be cataloged, along with
+the tricks and explanations of the science behind them.
+
+
+Feedback:
+- Add the words "wicked cool" somewhere in there
+- Suggested reword to be "...along with the tricks complete 
+with the explanations behind how they work
+- First sentence is great
+- Vote for keep as is
