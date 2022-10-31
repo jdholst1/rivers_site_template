@@ -1,0 +1,15 @@
+
+h1 {
+    color:#d1d5de;
+    font-size: 1.5em;
+}
+p1 {
+    color:#d1d5de;
+    font-size:0.9em;
+}
+#content {
+    margin: 0 auto;
+    background-color: #7d7165;
+    max-width: 900px;
+    padding:0 50px;
+}
