@@ -1,11 +1,172 @@
-
+/*0e7c7b, 30d5d2, d62246, d4f4dd, #4b1d3f */
 
 body{
     background-color: rgb(97, 224, 217);
     margin: 0 auto;
-
 }
 
+header{
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #d62246;
+    opacity: 0.85;
+    font-family:'Roboto Slab', 'Inter', sans-serif;
+    padding: 0px;
+}
+footer{
+    background-color: #4b1d3f;
+    color: #d4f4dd;
+    padding: 10px 30px;
+    padding-top: 15px;
+    margin-top: 200 px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.3em;
+}
+footer a{
+    color: #d4f4dd;
+    text-decoration: none;
+}
+h3 {
+    text-align: center;
+    font-size: 32px;
+    margin: 0 9px;
+    color: #4b1d3f;
+}
+p {
+    padding: 20px 30px; 
+    font-size: 1.5em;
+}
+li{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color:#4b1d3f;
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+}
+nav a{
+    
+    background-color: #d62246;
+    color:#d4f4dd;
+    text-decoration: none;
+    padding: 30px 35px;
+    font-size:30px;
+}
+nav a:hover{
+    background-color: #0e7c7b;
+    color:#d4f4dd;
+}
+.logo{
+    padding: 15px 70px;
+    max-width: 75px;
+    border-radius: 50%;
+}
 .mainDiv{
+    display: grid;
+    grid-template-columns: 80% 20%;
     background-color: rgb(204, 239, 238);
+    margin: 10px auto;
+    width:1100px;
+    height: 550px;
+}
+.icon{
+    max-width: 100px;
+}
+.listBox{
+    /* margin: 0 auto; */
+    max-width: 100%;
+    background-color: #d4f4dd;
+    color:#d62246;
+    border: 10px ridge #0e7c7b;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px 0 #4b1d3f;
+
+}
+.listGrid{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width:auto;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    justify-content: center;
+}
+#listBox1{
+    grid-column: 2/4;
+}
+#listBox2{
+    grid-column: 5/7;
+}
+#listBox3{
+    grid-column: 8/10;
+}
+
+
+
+/* Home Page */
+#homeBox{
+    height:400px;
+}
+#homeBox2{
+    margin: 35px 40px;
+    display: inline-block;
+    background-color: #d4f4dd;
+    width:400px;
+    height:450px;
+    z-index: 0;
+    border: 10px solid #4b1d3f;
+}
+#mainHeader{
+    text-align: center;
+    font-size: 50px;
+}
+#homeImage1{
+    grid-column: 2/3;
+    max-width: 300px;
+    margin-top: 50px;
+    /* border: 10px solid #0e7c7b; */
+    box-shadow: 5px 5px 10px #0e7c7b;
+    z-index: 1;
+}
+#homeImage2{
+    max-width: 600px;
+    margin-left: 10%;
+    margin-top: -100px;
+    border: 35px solid #0e7c7b;
+    border-radius: 5px;
+}
+
+
+
+/* Glitches and Tricks */
+#glitchImage1{
+    max-width: 300px;
+}
+#glitchImage2{
+    max-width: 500px;
+}
+
+
+
+/* Routes */
+#routesGrid{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+#routesHeader{
+    grid-column: 2/3;
+    color:#4b1d3f;
+    text-align: center;
+}
+#routesBox1{
+    grid-column: 2/6;
+    background-color: #d4f4dd;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #4b1d3f;
+}
+#routesPara{
+    grid-column: 2/6;
+    color:#4b1d3f;
 }
