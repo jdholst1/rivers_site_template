@@ -34,8 +34,8 @@ nav{
     justify-content: space-around;
 }
 nav a{
-    background-color: #b7b6c2;
-    color:#657153;
+    background-color: #928477;
+    color:#d1d5de;
     text-decoration: none;
     padding: 10px 35px;
     font-size:22px;
@@ -43,8 +43,8 @@ nav a{
     
 }
 nav a:hover{
-    background-color: #d1d5de;
-    color:#657153;
+    background-color: #657153;
+    color:#d1d5de;
 }
 #logo_link{
     padding-top: 5px;
@@ -353,4 +353,13 @@ p1{
 }
 #GrandPara3{
     grid-column:1/3;
+}
+
+
+/* contactus */
+#contactusDiv{
+    width:700px;
+    height:400px;
+    margin: 50px auto;
+    background-color: #6f7364;
 }
