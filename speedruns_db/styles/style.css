@@ -177,6 +177,7 @@ nav a:hover{
 /* Routes */
 #routesGrid{
     display: grid;
+    margin-left: 20px;
     grid-template-columns: repeat(10, 1fr);
  
 }
@@ -229,6 +230,7 @@ nav a:hover{
     grid-column: 2/6;
     color:#4b1d3f;
 }
+
 
 
 /* Component Practice */
